@@ -2,7 +2,9 @@ import React from 'react'
 
 const Recipe = () => {
   return (
-    <div>Recipe</div>
+    <div>
+      <h3>Recipe Component</h3>
+    </div>
   )
 }
 

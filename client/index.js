@@ -1,5 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import App from './components/App';
+import './styles.css';
+// import styles from './stylesheets/styles.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));

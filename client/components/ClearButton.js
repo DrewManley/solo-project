@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ClearButton = () => {
+const ClearButton = ({ clear }) => {
   return (
-    <div>ClearButton</div>
+    <button className='btn' onClick={ clear }>Clear</button>
   )
 }
 
